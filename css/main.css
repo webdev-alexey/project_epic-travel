@@ -29,13 +29,13 @@ a {
   display: none !important;
 }
 
-.title-2 {
+.title-1 {
   font-size: 48px;
   font-weight: 800;
   line-height: 1;
 }
 
-.title-2 span {
+.title-1 span {
   color: #81b4bd;
 }
 
@@ -159,6 +159,58 @@ a {
 }
 
 .content-text a {
+  color: #81b4bd;
+  text-decoration: underline;
+}
+
+/* Inner Page */
+
+.inner-page {
+  padding: 90px 0;
+}
+
+.inner-page-title-wrapper {
+  margin-bottom: 60px;
+}
+
+/* Cards */
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* column-gap: 30px;
+    row-gap: 60px; */
+  gap: 60px 30px;
+}
+
+.card {
+  width: 370px;
+}
+
+.card-img {
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.card-desc p {
+  line-height: 1.5;
+}
+
+.card-desc a {
   color: #81b4bd;
   text-decoration: underline;
 }
