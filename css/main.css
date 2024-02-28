@@ -215,6 +215,26 @@ a {
   text-decoration: underline;
 }
 
+/* Article */
+
+.article-content {
+}
+
+.article-content p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.article-content p + p {
+  margin-top: 30px;
+}
+
+.article-img {
+  margin: 40px 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
 /* Footer */
 
 .footer {
