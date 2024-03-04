@@ -75,6 +75,10 @@ a {
 
 /* Nav */
 
+.logo {
+  flex-shrink: 0;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -101,11 +105,11 @@ a {
   color: #00ceb5;
 }
 
-/* Main Page */
-
-.main-page {
+.btn-mobile-nav {
+  display: none;
 }
 
+/* Main Page */
 /* Promo */
 
 .promo {
@@ -127,9 +131,6 @@ a {
   .promo {
     background-image: url("./../img/promo/promo-bg@2x.jpg");
   }
-}
-
-.promo-desc {
 }
 
 .promo-title {
@@ -237,9 +238,6 @@ a {
 
 /* Article */
 
-.article-content {
-}
-
 .article-content p {
   font-size: 18px;
   line-height: 1.8;
@@ -260,7 +258,6 @@ a {
 .contacts-columns {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   gap: 100px;
 }
 
@@ -357,9 +354,6 @@ a {
 
 /* Custom radio buttons */
 
-.real-radio {
-}
-
 .fake-radio {
   flex-shrink: 0;
   position: relative;
@@ -391,9 +385,6 @@ a {
 }
 
 /* Custom Checkboxes */
-
-.real-checkbox {
-}
 
 .fake-checkbox {
   position: relative;
