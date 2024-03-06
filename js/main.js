@@ -6,8 +6,6 @@ const header = document.querySelector("#header");
 
 // Добавляем прослушку по клику
 btn.addEventListener("click", function () {
-  console.log("Click");
-
   btn.classList.toggle("open");
   mobileNav.classList.toggle("open");
   header.classList.toggle("header-white-bg");

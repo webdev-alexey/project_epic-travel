@@ -55,4 +55,22 @@
   .content-column-on-mobile {
     flex-direction: column !important;
   }
+
+  /* Inner Page */
+
+  .inner-page {
+    padding: 40px 0;
+  }
+
+  .cards-wrapper {
+    row-gap: 20px;
+  }
+
+  .card {
+    width: 290px;
+  }
+
+  .card-desc p {
+    font-size: 14px;
+  }
 }
